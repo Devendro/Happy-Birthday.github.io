@@ -194,14 +194,14 @@ button.addEventListener("click",function(){
         setTimeout(() => {
             msgWindow.classList.add("fade-in");
             msgWindow.style.opacity = '0';
-        },88000);
+        },10000);
 
         setTimeout(() => {
             frames[1].style.display = "none";
             frames[0].style.display = "flex";
             frames[0].classList.add("appear");
             frames[0].style.opacity = "1";
-        },91000);
+        },12000);
 
     }
 
